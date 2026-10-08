@@ -1,0 +1,106 @@
+{
+  "as_of": "2026-10-08",
+  "ref": "origin/main",
+  "commit": "44d8128cb60ac4c5c3e9edfeb820bb43a2fd17f7",
+  "version": {
+    "version": "8.0.172"
+  },
+  "scope": "frontend/src, backend/src, boards-sync/src; TS/TSX/JS/JSX; без тестов, mock, деклараций и generated",
+  "source_files": 1481,
+  "nonblank_source_lines": 274360,
+  "test_files": 1470,
+  "test_file_note": "Количество файлов, а не число успешно выполненных тестов",
+  "parts": {
+    "frontend/src": {
+      "files": 1131,
+      "nonblank_lines": 206742
+    },
+    "backend/src": {
+      "files": 339,
+      "nonblank_lines": 65108
+    },
+    "boards-sync/src": {
+      "files": 11,
+      "nonblank_lines": 2510
+    }
+  },
+  "navigation": [
+    {
+      "id": "warehouse",
+      "label": "Склад",
+      "path": "/warehouse"
+    },
+    {
+      "id": "receipts",
+      "label": "Счета",
+      "path": "/receipts"
+    },
+    {
+      "id": "deliveries",
+      "label": "Грузы",
+      "path": "/deliveries"
+    },
+    {
+      "id": "labWarehouse",
+      "label": "Лаборатория",
+      "path": "/lab/warehouse"
+    },
+    {
+      "id": "projects",
+      "label": "Заявки",
+      "path": "/projects"
+    },
+    {
+      "id": "commercial",
+      "label": "Запросы",
+      "path": "/commercial"
+    },
+    {
+      "id": "specifications",
+      "label": "Спецификации",
+      "path": "/specs"
+    },
+    {
+      "id": "catalog",
+      "label": "Каталог",
+      "path": "/catalog"
+    },
+    {
+      "id": "kanban",
+      "label": "Доски",
+      "path": "/kanban"
+    },
+    {
+      "id": "timeTracking",
+      "label": "Учёт времени",
+      "path": "/time-tracking"
+    },
+    {
+      "id": "subscriptions",
+      "label": "Подписки",
+      "path": "/subscriptions"
+    },
+    {
+      "id": "linksMap",
+      "label": "Карта связей",
+      "path": "/links-map"
+    },
+    {
+      "id": "boards",
+      "label": "Холсты",
+      "path": "/boards"
+    }
+  ],
+  "agent_route_groups": [
+    "backend/src/routes/agentCatalogRoutes.ts",
+    "backend/src/routes/agentCommercialRoutes.ts",
+    "backend/src/routes/agentDeliveryRoutes.ts",
+    "backend/src/routes/agentKanbanRoutes.ts",
+    "backend/src/routes/agentLabRoutes.ts",
+    "backend/src/routes/agentProjectRoutes.ts",
+    "backend/src/routes/agentSpecRoutes.ts",
+    "backend/src/routes/agentSubscriptionRoutes.ts",
+    "backend/src/routes/agentSupplierRoutes.ts",
+    "backend/src/routes/agentWarehouseRoutes.ts"
+  ]
+}
