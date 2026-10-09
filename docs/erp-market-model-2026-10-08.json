@@ -1,0 +1,24 @@
+{
+  "as_of": "2026-10-08",
+  "method": "Расчётная модель индивидуальной разработки и внедрения ERP по коммерческим ставкам команды",
+  "currency": "RUB",
+  "vat_included": false,
+  "hours_per_month": 160,
+  "environment_percent": 5,
+  "reserve_percent": 15,
+  "scenarios": [
+    {"id": "small", "employees": "около 10", "team_min": 3, "team_max": 4, "months_min": 4, "months_max": 8, "rate_min": 2500, "rate_max": 3200, "display_budget": "6–20 млн ₽", "display_duration": "4–8 мес", "display_team": "3–4"},
+    {"id": "medium", "employees": "около 100", "team_min": 6, "team_max": 8, "months_min": 9, "months_max": 18, "rate_min": 3000, "rate_max": 3500, "display_budget": "30–100 млн ₽", "display_duration": "9–18 мес", "display_team": "6–8"},
+    {"id": "large", "employees": "более 1000", "team_min": 12, "team_max": 20, "months_min": 18, "months_max": 36, "rate_min": 3500, "rate_max": 4000, "display_budget": "150–550+ млн ₽", "display_duration": "18–36+ мес", "display_team": "12–20+"}
+  ],
+  "example": {
+    "team": 7,
+    "months": 15,
+    "hourly_rate": 3300,
+    "labor_budget": 55440000,
+    "environment_budget": 2772000,
+    "reserve_budget": 8316000,
+    "total_budget": 66528000,
+    "average_role_loads": {"руководитель": 0.5, "аналитик": 1, "архитектор": 0.5, "разработчики": 3, "тестирование": 1, "инфраструктура": 0.5, "дизайн и обучение": 0.5}
+  }
+}
