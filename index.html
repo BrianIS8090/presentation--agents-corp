@@ -314,6 +314,7 @@ a{color:var(--teal);text-decoration-color:rgba(14,124,102,.35);text-underline-of
 .slide-takeaway{margin-top:1.2rem;max-width:90ch;font-size:.94rem;line-height:1.5}
 .market-facts .sh{padding:.95rem 1.15rem;gap:1rem}
 .market-facts .big{font-size:clamp(1.45rem,2.3vw,2.05rem)}
+.market-facts .brand-name{display:block;font-family:'Unbounded',sans-serif;font-size:1rem;margin-bottom:.35rem}
 .adoption-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:1rem}
 .adoption-grid>div{padding:1rem;background:white}
 .adoption-number{font-family:'Unbounded',sans-serif;font-size:1.7rem;font-weight:600;color:var(--indigo);margin-bottom:.5rem}
@@ -367,7 +368,7 @@ a{color:var(--teal);text-decoration-color:rgba(14,124,102,.35);text-underline-of
 <!-- 2 · ГЛОБУС · ШОК -->
 <section class="slide" id="globeSlide">
   <div class="eyebrow">Срез на 8 октября 2026</div>
-  <h2 style="margin-bottom:1.2rem">Агенты уже пишут промышленный код</h2>
+  <h2 style="margin-bottom:1.2rem">Крупные компании уже передают задачи ИИ</h2>
   <div class="globe-slide">
     <div class="globe-box">
       <svg id="globe" viewBox="0 0 440 440" width="440" height="440" role="img" aria-label="Вращающаяся модель Земли с потоками агентного кода между технологическими центрами">
@@ -396,22 +397,21 @@ a{color:var(--teal);text-decoration-color:rgba(14,124,102,.35);text-underline-of
     <div class="market-facts">
       <div class="shock">
         <div class="sh">
-          <div class="big" style="color:var(--teal)">800k+</div>
-          <div class="t"><b>строк промышленного Rust в GitHub.</b> Большую часть кода нового ядра Copilot написали агенты; 128 изменений выпущены поэтапно.<span class="src"><a href="https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/" target="_blank" rel="noopener noreferrer">GitHub Engineering · 16–23.09.2026</a></span></div>
+          <div class="big" style="color:var(--teal)">75%</div>
+          <div class="t"><b class="brand-name">Google</b>нового программного кода создаёт ИИ. Инженеры проверяют и принимают результат.<span class="src"><a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/" target="_blank" rel="noopener noreferrer">Заявление главы Google · 22.04.2026</a></span></div>
         </div>
         <div class="sh">
-          <div class="big" style="color:var(--indigo)">75%</div>
-          <div class="t"><b>нового кода внутри Google</b> генерирует ИИ, затем его проверяют и принимают инженеры. Последняя найденная официальная доля — за апрель.<span class="src"><a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/" target="_blank" rel="noopener noreferrer">Сундар Пичаи · 22.04.2026</a></span></div>
+          <div class="big" style="color:var(--indigo)">5 000</div>
+          <div class="t"><b class="brand-name">Яндекс</b>сотрудников каждую неделю пользуются агентом «Стефания»: ищут информацию, готовят аналитику и решают рабочие задачи.<span class="src"><a href="https://www.yandex.ru/company/news/29-07-2026-01" target="_blank" rel="noopener noreferrer">Официальная публикация Яндекса · 29.07.2026</a></span></div>
+        </div>
+        <div class="sh">
+          <div class="big" style="color:var(--teal)">≈90%</div>
+          <div class="t"><b class="brand-name">Microsoft</b>компаний из Fortune 500 — списка крупнейших компаний США — подключают агентов к своим рабочим данным через сервисы Microsoft.<span class="src"><a href="https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4" target="_blank" rel="noopener noreferrer">Отчёт Microsoft · 29.07.2026</a></span></div>
         </div>
       </div>
-      <div class="adoption-grid">
-        <div><div class="adoption-number">65,9%</div><p>респондентов используют<br><b>помощников или агентов для кода</b></p></div>
-        <div><div class="adoption-number">26,2%</div><p>используют <b>агентные<br>автоматизированные процессы</b></p></div>
-      </div>
-      <p class="fact-caption"><a href="https://survey.stackoverflow.co/2026/ai/data" target="_blank" rel="noopener noreferrer">Stack Overflow Developer Survey 2026</a> · опубликован 06.10.2026 · n = 17 464. Категории пересекаются: это не воронка внедрения.</p>
     </div>
   </div>
-  <p class="slide-takeaway"><strong>Производство кода уже меняется в реальных компаниях.</strong> Доля кода Google, размер проекта GitHub и доля пользователей инструментов — разные показатели. Общемировую долю «кода, написанного агентами» эти данные не измеряют.</p>
+  <p class="slide-takeaway"><strong>ИИ уже помогает создавать продукты и выполнять офисную работу.</strong> Мы переносим этот подход в задачи вашей компании: проекты, документы, снабжение и взаимодействие сотрудников.</p>
 </section>
 
 <!-- 3 · Тезис через экономику -->
@@ -496,7 +496,7 @@ a{color:var(--teal);text-decoration-color:rgba(14,124,102,.35);text-underline-of
 
 <!-- 5 · ВЕЩДОК №1 -->
 <section class="slide erp-evidence" id="erpEvidence">
-  <div class="eyebrow ev">7LAMP ERP · прямой аудит кода · 08.10.2026</div>
+  <div class="eyebrow ev">Наша действующая система · 7LAMP ERP · 08.10.2026</div>
   <h2>ERP выросла в связанную рабочую среду</h2>
   <div class="erp-layout">
     <div>
@@ -504,7 +504,7 @@ a{color:var(--teal);text-decoration-color:rgba(14,124,102,.35);text-underline-of
       <div class="stats erp-stats">
         <div class="stat"><div class="n g">13</div><div class="l">рабочих разделов в основном меню</div></div>
         <div class="stat"><div class="n v">274 тыс.</div><div class="l">непустых строк исходников<br>в 1 481 файле</div></div>
-        <div class="stat"><div class="n">1 470</div><div class="l">тестовых файлов<br>в проверенном срезе</div></div>
+        <div class="stat"><div class="n">1 470</div><div class="l">файлов автоматических тестов<br>в проекте</div></div>
         <div class="stat"><div class="n g">10</div><div class="l">групп программных интерфейсов для агентов</div></div>
       </div>
       <p class="erp-note">Дополнительно: календарь, профиль, администрирование и сервер совместного редактирования. Связи и права доступа соединяют рабочие разделы в одну систему.</p>
@@ -516,8 +516,8 @@ a{color:var(--teal);text-decoration-color:rgba(14,124,102,.35);text-underline-of
       <div class="module-base">Права доступа · история действий · работа агентов</div>
     </div>
   </div>
-  <p class="fact-caption">Проверена версия кода <code>44d8128</code>: интерфейс, сервер и совместное редактирование. Подсчёт исключает тесты, заглушки, описания типов и сгенерированные файлы; комментарии включены. Тестовые файлы посчитаны, результаты их запуска здесь не оценивались. <a href="docs/erp-audit-2026-10-08.json" target="_blank" rel="noopener">Методика и результаты подсчёта</a>.</p>
-  <div class="note">Метрики подтверждают масштаб кода и наличие возможностей. Качество, нагрузку и экономический эффект проверяют отдельными испытаниями; авторство каждой исторической строки по репозиторию не устанавливается.</div>
+  <p class="fact-caption">7LAMP ERP · версия 8.0.172 · октябрь 2026. <a href="docs/sources-2026-10-08.md" target="_blank" rel="noopener">Состав системы и показатели</a>.</p>
+  <p class="slide-takeaway"><strong>В вашем проекте мы опираемся на собственную ERP:</strong> используем подходящие модули, связи между объектами и опыт организации совместной работы.</p>
 </section>
 
 <!-- 6 · ВЕЩДОК №2 -->
@@ -535,7 +535,7 @@ a{color:var(--teal);text-decoration-color:rgba(14,124,102,.35);text-underline-of
         <div class="growth-month" data-value="30"><div class="growth-track"><div class="growth-bar" style="height:30%"><span>30×</span></div></div><div class="growth-label">Авг</div></div>
         <div class="growth-month" data-value="100"><div class="growth-track"><div class="growth-bar" style="height:100%"><span>100×</span></div></div><div class="growth-label">Сен</div></div>
       </div>
-      <p class="fact-caption">Средний уровень декабря 2025 — апреля 2026 принят за 1. Шкала линейная. Май и июнь — прежний срез; июль–сентябрь — обновление владельца компании от 08.10.2026.</p>
+      <p class="fact-caption">Внутренняя статистика Agent Corp на 08.10.2026. Средний объём работы декабря 2025 — апреля 2026 принят за 1. Шкала линейная.</p>
     </div>
     <div class="readout">
       <div class="ro"><div class="big" style="color:var(--teal)">×20</div><div class="cap2">июль к базовому периоду</div></div>
@@ -543,41 +543,41 @@ a{color:var(--teal);text-decoration-color:rgba(14,124,102,.35);text-underline-of
       <div class="ro"><div class="big" style="color:var(--teal)">×100</div><div class="cap2">сентябрь к базовому периоду</div></div>
     </div>
   </div>
-  <p class="slide-takeaway"><strong>Агенты стали постоянным производственным ресурсом.</strong> Рост индекса показывает увеличение объёма их работы. Он сам по себе не измеряет скорость команды, качество или прибыль.</p>
+  <p class="slide-takeaway"><strong>Агенты стали постоянным производственным ресурсом.</strong> Мы последовательно расширяем объём задач, которые они выполняют под управлением команды.</p>
 </section>
 
-<!-- 7 · Честность -->
-<section class="slide" id="octoberLimits">
-  <div class="eyebrow">Границы данных · октябрь 2026</div>
-  <h2>Что подтверждено — и что ещё нужно измерять</h2>
+<!-- 7 · Основа проекта заказчика -->
+<section class="slide" id="clientFoundation">
+  <div class="eyebrow">Что получает заказчик · октябрь 2026</div>
+  <h2>Ваша ERP на основе нашего практического опыта</h2>
   <div class="split">
     <div>
-      <div class="col-head"><div class="dot" style="background:var(--teal)"></div><h3 style="margin:0">Основания на 8 октября</h3></div>
+      <div class="col-head"><div class="dot" style="background:var(--teal)"></div><h3 style="margin:0">С чем мы приходим в проект</h3></div>
       <ul>
-        <li>Прямой срез ERP версии 8.0.172: 13 разделов меню и около 274 тыс. строк исходников.</li>
-        <li>Внутренний индекс: июль ×20, август ×30, сентябрь ×100 к прежней базе.</li>
-        <li>Новые месячные коэффициенты предоставлены владельцем; исходная выгрузка в презентацию не приложена.</li>
-        <li>Затраты ×20,7 относятся только к прежнему срезу до июня. Значений за июль–сентябрь нет.</li>
+        <li>Собственная ERP: 13 связанных рабочих разделов.</li>
+        <li>Опыт автоматизации технической компании: проекты, снабжение, склад и совместная работа.</li>
+        <li>Организованный цикл агентной разработки: задание, реализация, тестирование и выпуск.</li>
+        <li>Единый подход к правам доступа, истории действий и подключению агентов.</li>
       </ul>
     </div>
     <div>
-      <div class="col-head"><div class="dot" style="background:var(--indigo)"></div><h3 style="margin:0">Проверяем на каждом внедрении</h3></div>
+      <div class="col-head"><div class="dot" style="background:var(--indigo)"></div><h3 style="margin:0">Как строим систему для вас</h3></div>
       <ul>
-        <li>Время от согласованного задания до принятого результата.</li>
-        <li>Стоимость принятой задачи: люди, агенты, повторные попытки.</li>
-        <li>Ошибки после выпуска и нагрузку на человеческую проверку.</li>
-        <li>Изменение метрики бизнес-процесса и фактическую окупаемость.</li>
+        <li>Описываем процессы, участников и движение информации вокруг проекта.</li>
+        <li>Подбираем готовые модули и разрабатываем функции под ваши задачи.</li>
+        <li>Согласуем результат, бюджет, сроки и критерии приёмки каждого этапа.</li>
+        <li>Поэтапно подключаем сотрудников и развиваем систему вместе с вашей командой.</li>
       </ul>
     </div>
   </div>
-  <div class="note"><strong>×100 по объёму не означает ×100 по производительности.</strong> Количество кода и тестовых файлов также не доказывает качество или экономию. Сравнение проводится на одном процессе и сопоставимом составе работ.</div>
+  <p class="slide-takeaway"><strong>Центр системы — ваш проект:</strong> задачи, документы, спецификации, снабжение и ответственные связаны в общем рабочем пространстве.</p>
 </section>
 
 <!-- 8 · Что мы продаём -->
 <section class="slide">
   <div class="eyebrow">Что мы на самом деле продаём</div>
   <h2>Не результат работы агентов. Способность вашей компании их использовать</h2>
-  <p class="lede" style="max-width:70ch;margin-bottom:1.7rem">По опросу Stack Overflow 2026, помощниками и агентами для кода пользуются 65,9% респондентов, агентными процессами — 26,2%. Для рабочего процесса также нужны система, права, журнал и ответственный владелец.</p>
+  <p class="lede" style="max-width:70ch;margin-bottom:1.7rem">Мы встраиваем агентов в процессы вашей компании: определяем задачи, подключаем нужные данные и инструменты, настраиваем права доступа и контроль результата.</p>
   <div class="split">
     <div>
       <div class="col-head"><div class="dot" style="background:var(--clay)"></div><h3 style="margin:0">Почему пилоты умирают</h3></div>
@@ -635,44 +635,43 @@ a{color:var(--teal);text-decoration-color:rgba(14,124,102,.35);text-underline-of
 
 <!-- 11 · Экономика -->
 <section class="slide market-budget" id="marketBudget">
-  <div class="eyebrow">Стоимость и сроки · внешние ориентиры на 08.10.2026</div>
-  <h2>Сколько стоит заказная ERP: публичные ориентиры</h2>
-  <p class="market-intro">Ниже — ориентиры конкретного разработчика <a href="https://yusmpgroup.ru/services/razrabotka-erp" target="_blank" rel="noopener noreferrer">YuSMP</a>. Они относятся к заказной разработке, а не к покупке лицензии готовой ERP.</p>
+  <div class="eyebrow">Экономика ERP · российский рынок · октябрь 2026</div>
+  <h2>Масштаб компании определяет бюджет ERP</h2>
+  <p class="market-intro">Индивидуальная разработка и внедрение силами обычной проектной команды. В полный цикл входят анализ процессов, разработка, перенос данных, интеграции, тестирование, обучение и запуск.</p>
   <div class="table-scroll"><table>
-    <thead><tr><th>Объём по источнику</th><th>Опубликованный бюджет</th><th>Срок</th><th>Граница оценки</th></tr></thead>
+    <thead><tr><th>Масштаб компании</th><th>Состав системы</th><th>Бюджет проекта</th><th>Срок</th><th>Команда*</th></tr></thead>
     <tbody>
-      <tr><td>Первый модуль</td><td class="price">от 1,5 млн ₽</td><td>2–3 мес</td><td>1–2 модуля, одна интеграция</td></tr>
-      <tr><td>Отраслевая ERP</td><td class="price">от 4 млн ₽</td><td>4–7 мес</td><td>4–6 модулей и интеграции</td></tr>
-      <tr><td>Полный контур</td><td class="price">от 8 млн ₽</td><td>от 8 мес</td><td>Производство, документы, аналитика</td></tr>
-      <tr><td>Холдинг</td><td class="price">индивидуально</td><td>от 12 мес</td><td>Несколько юрлиц и филиалов</td></tr>
+      <tr><td><strong>≈10 сотрудников</strong><br>Небольшая компания</td><td>Проекты, продажи, закупки, склад;<br>1–2 интеграции</td><td class="price">6–20 млн ₽</td><td>4–8 мес</td><td>3–4</td></tr>
+      <tr><td><strong>≈100 сотрудников</strong><br>Техническая компания</td><td>Полный операционный цикл: проекты, производство, снабжение, склад, управленческие финансы; 3–6 интеграций</td><td class="price">30–100 млн ₽</td><td>9–18 мес</td><td>6–8</td></tr>
+      <tr><td><strong>Более 1 000 сотрудников</strong><br>Крупная компания / группа</td><td>Несколько предприятий и площадок, сложное производство, общий управленческий учёт, 10+ интеграций</td><td class="price">150–550+ млн ₽</td><td>18–36+ мес</td><td>12–20+</td></tr>
     </tbody>
   </table></div>
   <div class="market-crosscheck">
-    <div><h3><a href="https://longcatdev.com/razrabotka-erp" target="_blank" rel="noopener noreferrer">Лонг Кэт</a></h3><p>ERP средней сложности: <strong>3–5 млн ₽</strong> за разработку + <strong>370 тыс. ₽</strong> за ТЗ и прототип; <strong>5–7 месяцев</strong>.</p></div>
-    <div><h3><a href="https://www.purrweb.com/ru/uslugi/razrabotka-erp-sistem/" target="_blank" rel="noopener noreferrer">Purrweb</a></h3><p>Опубликованный старт стоимости заказной ERP — <strong>от 7 млн ₽</strong>. Итог зависит от функций и подключений.</p></div>
+    <div><h3>Из чего складывается бюджет</h3><p>Руководитель, аналитики, архитектор, разработчики, тестирование и внедрение. Расчёт: <strong>команда × часы × ставка × срок</strong> + среда разработки и запуска + резерв.</p></div>
+    <div><h3>Пример для компании на 100 человек</h3><p>7 специалистов × 160 ч × 3 300 ₽ × 15 мес = <strong>55,4 млн ₽</strong>.<br>Среда и инструменты 5% + резерв 15% → <strong>около 67 млн ₽</strong>.</p></div>
   </div>
-  <p class="fact-caption">Это публичные ориентиры поставщиков, не средняя цена рынка и не сопоставимые коммерческие предложения. НДС на указанных страницах явно не уточнен. У YuSMP сторонние лицензии, серверы и последующее развитие оплачиваются отдельно. <a href="docs/sources-2026-10-08.md" target="_blank" rel="noopener">Источники и оговорки</a>.</p>
-  <div class="note"><strong>Agent Corp:</strong> объём, стоимость и срок фиксируются после обследования. Работа агентов может ускорять реализацию; качество данных, согласования и запуск требуют отдельного времени. Универсальный коэффициент ускорения ERP внешними источниками не подтвержден.</div>
+  <p class="fact-caption">Расчётная модель Agent Corp по рыночным ставкам 2,5–4 тыс. ₽/ч. *Средняя загрузка команды в пересчёте на полную занятость. Бюджеты без НДС; сторонние лицензии и эксплуатация после запуска — отдельно. Основания: <a href="https://www.cnews.ru/news/line/2026-07-29_skillstaff_kakih_spetsialistov" target="_blank" rel="noopener noreferrer">исследование SkillStaff</a>, <a href="https://kotelov.com/austaffing-razrabotchikov-czeny-it-speczialistov" target="_blank" rel="noopener noreferrer">KOTELOV</a>, <a href="https://aspirity.ru/services/outstaffing" target="_blank" rel="noopener noreferrer">Аспирити</a> · <a href="docs/erp-market-model-2026-10-08.md" target="_blank" rel="noopener">Состав команд и расчёт</a>.</p>
+  <p class="slide-takeaway"><strong>Наш подход:</strong> используем собственную ERP и агентную разработку, чтобы направить ресурсы проекта на ваши процессы и необходимые доработки.</p>
 </section>
 
 <!-- 12 · Команда -->
 <section class="slide">
   <div class="eyebrow">Из чего складывается разница</div>
-  <h2>Из пятнадцати ролей вы нанимаете четыре</h2>
-  <p class="lede" style="max-width:74ch;margin-bottom:1.4rem">Обычный ERP-проект требует пятнадцати ролей, и все они попадают в вашу смету. В агентной модели десять из них ведут агенты, четыре нанимаете у нас, а <strong>двух человек выделяете со своей стороны</strong> — им вы и так платите зарплату.</p>
+  <h2>Компактная команда. Полный цикл разработки</h2>
+  <p class="lede" style="max-width:74ch;margin-bottom:1.4rem">В нашей модели агенты выполняют задачи в десяти направлениях. <strong>Четыре специалиста с нашей стороны</strong> управляют проектом и отвечают за результат. Два представителя вашей компании определяют приоритеты и принимают выполненную работу.</p>
   <div class="s12">
     <div>
       <div class="col-head"><div class="dot" style="background:var(--clay)"></div><h3 style="margin:0">Это делают агенты</h3></div>
       <div class="cnt" style="color:var(--clay)">10</div>
-      <span class="cnt-l">ролей исчезают из сметы</span>
+      <span class="cnt-l">направлений работы агентов</span>
       <div class="pills" style="margin-top:0">
-        <div class="pill x">Бизнес-аналитик</div><div class="pill x">Системный аналитик</div>
-        <div class="pill x">Дизайнер</div><div class="pill x">Разработчик интерфейса</div>
-        <div class="pill x">Разработчик логики</div><div class="pill x">Данные и интеграции</div>
-        <div class="pill x">Тестировщики</div><div class="pill x">Серверы и выпуск</div>
-        <div class="pill x">Обучение</div><div class="pill x">Поддержка</div>
+        <div class="pill">Бизнес-анализ</div><div class="pill">Системный анализ</div>
+        <div class="pill">Дизайн</div><div class="pill">Интерфейс</div>
+        <div class="pill">Логика системы</div><div class="pill">Данные и интеграции</div>
+        <div class="pill">Тестирование</div><div class="pill">Серверы и выпуск</div>
+        <div class="pill">Обучение</div><div class="pill">Поддержка</div>
       </div>
-      <div class="tail">Агенты работают под контролем человека. Ответственность за результат остаётся на ядре.</div>
+      <div class="tail">Специалисты ставят задачи агентам, управляют их работой и принимают результат.</div>
     </div>
 
     <div>
@@ -685,13 +684,13 @@ a{color:var(--teal);text-decoration-color:rgba(14,124,102,.35);text-underline-of
         <li class="hot">Проверяющий качество и безопасность</li>
         <li class="hot">Владелец внедрения и выпуска</li>
       </ul>
-      <div class="tail">Это вся команда с нашей стороны. Размер зависит от риска и масштаба системы.</div>
+      <div class="tail">Команда отвечает за архитектуру, качество, внедрение и выпуск системы.</div>
     </div>
 
     <div>
       <div class="col-head"><div class="dot" style="background:var(--ochre)"></div><h3 style="margin:0">Это остаётся за вами</h3></div>
       <div class="cnt" style="color:var(--ochre)">2</div>
-      <span class="cnt-l">ваших сотрудника, не в смете</span>
+      <span class="cnt-l">представителя вашей компании</span>
       <ul>
         <li>Владелец продукта — тот, кто решает, что строим и зачем</li>
         <li>Владелец бизнес-процесса <span class="new">новая роль</span> — знает, как процесс работает сегодня, и одобряет операции с деньгами и складом</li>
@@ -704,8 +703,8 @@ a{color:var(--teal);text-decoration-color:rgba(14,124,102,.35);text-underline-of
 <!-- 13 · Горизонт -->
 <section class="slide">
   <div class="eyebrow">Куда это ведёт</div>
-  <h2>Код перестал быть результатом работы человека</h2>
-  <p class="lede" style="max-width:68ch;margin-bottom:1.7rem">Он стал промежуточным артефактом — как чертёж на заводе. Главная единица производства будущего — не разработчик, пишущий каждую строку, а <strong>небольшая группа людей, управляющая агентной фабрикой</strong>.</p>
+  <h2>Люди управляют целями. Агенты выполняют задачи</h2>
+  <p class="lede" style="max-width:68ch;margin-bottom:1.7rem">Наша модель объединяет <strong>компактную команду специалистов и агентное производство</strong>. Люди определяют, что нужно бизнесу, проектируют систему и отвечают за результат. Агенты выполняют задачи разработки и сопровождения.</p>
   <div class="split">
     <div>
       <div class="col-head"><div class="dot" style="background:var(--indigo)"></div><h3 style="margin:0">Куда смещается ценность человека</h3></div>
@@ -719,14 +718,14 @@ a{color:var(--teal);text-decoration-color:rgba(14,124,102,.35);text-underline-of
       </ul>
     </div>
     <div>
-      <div class="col-head"><div class="dot" style="background:var(--ochre)"></div><h3 style="margin:0">«Компания одного человека»</h3></div>
-      <p style="font-size:.91rem;margin-bottom:.9rem">Стратегический горизонт, а не сегодняшний факт. Такая автономность возможна только при наличии:</p>
+      <div class="col-head"><div class="dot" style="background:var(--ochre)"></div><h3 style="margin:0">Основа для дальнейшей автоматизации</h3></div>
+      <p style="font-size:.91rem;margin-bottom:.9rem">Система даёт компании опору для расширения работы агентов:</p>
       <ul>
-        <li>формализованных процессов и чистых данных</li>
-        <li>ограниченных прав и наблюдаемости</li>
-        <li>журнала всех действий</li>
-        <li>контрольных точек с человеком</li>
-        <li class="hot">системы, которая всё это удерживает</li>
+        <li>формализованные процессы и структурированные данные</li>
+        <li>управление правами доступа</li>
+        <li>журнал действий и понятные статусы</li>
+        <li>контрольные точки с ответственным сотрудником</li>
+        <li class="hot">единое рабочее пространство компании</li>
       </ul>
     </div>
   </div>

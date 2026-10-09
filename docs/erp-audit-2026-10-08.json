@@ -9,7 +9,7 @@
   "source_files": 1481,
   "nonblank_source_lines": 274360,
   "test_files": 1470,
-  "test_file_note": "Количество файлов, а не число успешно выполненных тестов",
+  "test_file_note": "Файлы автоматических тестов с суффиксом .test или .spec",
   "parts": {
     "frontend/src": {
       "files": 1131,
